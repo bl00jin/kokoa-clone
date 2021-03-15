@@ -16,6 +16,10 @@
 .nav__link {
   position: relative;
   color: #2e363e;
+  transition: all 0.2s ease-in-out;
+}
+.nav__link:hover {
+  color: white;
 }
 @keyframes notificationAnimation {
   0% {
