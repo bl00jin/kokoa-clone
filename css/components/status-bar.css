@@ -10,12 +10,29 @@
 .status-bar__column {
   width: 33%;
 }
+
+@keyframes flink {
+  0% {
+    color: #2e363e;
+  }
+  50% {
+    color: var(--yellow);
+  }
+  100% {
+    color: #2e363e;
+  }
+}
 .status-bar__column:first-child span {
   margin-right: 5px;
+}
+.status-bar__column:first-child i {
+  animation: flink 2s ease-in-out infinite;
 }
 .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
+  font-weight: 600;
+  color: var(--yellow);
 }
 .status-bar__column:last-child {
   display: flex;
@@ -24,4 +41,5 @@
 }
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
+  color: var(--yellow);
 }
