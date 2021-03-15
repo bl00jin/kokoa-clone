@@ -31,6 +31,7 @@
 @keyframes hidesplashscreen {
   from {
     opacity: 1;
+    font-size: 50px;
   }
   to {
     font-size: 200px;
