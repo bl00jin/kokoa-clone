@@ -18,7 +18,7 @@
   color: #2e363e;
   transition: all 0.2s ease-in-out;
 }
-.nav__link:hover {
+.nav__link:hover i {
   color: white;
 }
 @keyframes notificationAnimation {
