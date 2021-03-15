@@ -33,6 +33,7 @@
     opacity: 1;
   }
   to {
+    font-size: 200px;
     opacity: 0;
     visibility: hidden;
   }
@@ -46,7 +47,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 132px;
-  animation: hidesplashscreen 0.4s ease-in-out forwards;
-  animation-delay: 0.5s;
+  font-size: 50px;
+  animation: hidesplashscreen 0.8s ease-in-out forwards;
+  animation-delay: 0.3s;
 }
