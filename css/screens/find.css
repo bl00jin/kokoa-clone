@@ -1,7 +1,7 @@
 .recommended-friends {
   border-top: var(--main-border);
   border-bottom: var(--main-border);
-  padding: 20px 0px 30px 0px;
+  padding: 10px 0px 30px 0px;
   margin: 15px 0px;
 }
 .recommended-friends__title {
