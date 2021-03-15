@@ -107,6 +107,7 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  margin-right: 20px;
 }
 .recommended__comeback {
   display: flex;
@@ -131,7 +132,13 @@
 .recommended__track h6 {
   margin-bottom: 5px;
   color: var(--grey-font);
+  transition: all 0.2s ease-in-out;
 }
+.recommended__track h6:hover {
+  text-decoration: underline;
+  color: var(--yellow);
+}
+
 @keyframes filp {
   0% {
     opacity: 1;
